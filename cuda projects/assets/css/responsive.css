@@ -1,0 +1,203 @@
+
+@media (min-width:668px){
+
+    /* Header area section */
+    header{
+        position: relative;
+       height:500px;
+    } 
+    .main-nav{
+
+       float: right;
+    }
+
+    .row ul  {
+        display: flex;
+        float: right;
+        padding-right: 5%;
+        width: 100%;
+        
+    }
+    .row ul li {
+        text-decoration: none;
+        color: white;
+        font-size: 19px;
+        text-transform: uppercase;
+        width: 100px;
+    }
+    .row ul li:hover{
+        background-color: #643a79;
+        transition: .4s;
+        border-radius: 5px;
+    }
+    .header-button{
+        position: absolute;
+        top: 120%;
+     }
+     .header-main .header-main-text h1{
+        font-size:2rem;
+    }
+}
+/* <!-- ===== header section ends here =====  --> */
+ /* <!-- service section starts here  =========--> */
+ 
+    @media(min-width:768px){
+        .col{
+            width:23%;
+            padding:10px;
+        }
+        .grid-row{
+            display:flex;
+        }     
+        .service-section{
+            
+            padding: 0 10%;
+            margin: 0 auto;
+        }
+    }
+
+    @media(min-width:568px){
+        .col{
+            width:49%;
+            padding:10px;
+        }
+        .grid-row-1{
+            display:flex;
+        }
+        .grid-row-2{
+            display:flex;
+        }
+    }
+ /* <!-- service section ends here  =========--> */
+/* ========= Team section starts here =========  */
+
+@media(min-width:768px){
+   .team-row{
+
+        display: flex;
+    }
+    .team-member{
+        width: 23.5%;
+    }
+
+    .team-section-mem{
+        padding: 0 10%;
+        margin: 0 auto;
+    }
+}
+@media(min-width:568px){
+    .team-row-1{
+ 
+         display: flex;
+     }
+     .team-row-2{
+ 
+        display: flex;
+    }
+     .team-member{
+         width: 49.5%;
+     }
+ }
+/* ========= Team section ends here =========  */
+/*  <<<<<<<<<<< Skills Section starts here >>>>>>>>>   */
+
+
+    @media(min-width:768px){
+
+        .scrill-row{
+            width: 25%;
+        }
+        .scroll-section-row{
+            display: flex;
+            margin: 0 auto;
+            display: inline-flex;
+            padding: 10px;
+        }
+     }
+    @media(min-width:568px){
+        .scrill-row{
+            width:50%;
+        }
+        .scrill-row-1{
+            display: flex;
+        }
+        .scrill-row-2{
+            display: flex;
+        }
+     }
+    
+    /*  <<<<<<<<<<< Skills Section ends here >>>>>>>>>   */
+     /*<><>>>><>> protfolio section starts here  <><>>>>><>> */
+     @media(min-width:768px){
+
+        .protfolio-item-1{
+            width: 100%;
+            display: flex;
+            height: 250px;
+        }
+        .protfolio-item-decs img{
+       
+            width: 100%;
+            height: 100%;
+          
+            
+        }
+        .protfolio-section-itemall{
+
+            padding: 0 10%;
+            text-align: center;
+            margin: 0 10%;
+        } 
+        .protfolio-item-1{
+            display:flex;
+        }
+
+    
+     }
+
+ 
+    /*<><>>>><>> protfolio section Ends here  <><>>>>><>> */
+    /* <!-- >>> about section starts here <<<<  --> */
+
+    @media(min-width:768px){
+
+        .about-member-1{
+            width: 48%;
+        }
+        .about-decs{
+            margin:0 10%;
+        }
+        .about-decs-1{
+            display: flex;
+        }
+        .about-decs-2{
+            display: flex;
+        }
+    
+     }
+      
+    /* <!-- >>> about section Ends here <<<<  --> */
+    /* <!-- <<<<<<<<< footer section starts here  >>>>>> --> */
+
+    @media(min-width:768px){
+        .input-area{
+           padding: 0 20%;
+        }
+        .name-gmail input{
+            display: inline;
+        }
+        .input-area .name-gmail input{
+            display: block;
+            margin:5px;
+            width:45.6%;
+        }
+        .name-gmail{
+            display: flex;
+            margin-left: 20px;
+        }
+        /* footer .footer-link ul .footer-ling-1,.footer-ling-2{
+            display:inline-flex;
+        } */
+     }
+
+    /* <!-- <<<<<<<<< footer section Ends here  >>>>>> --> */

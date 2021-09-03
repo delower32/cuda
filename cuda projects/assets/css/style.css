@@ -1,0 +1,410 @@
+*,*::after,*::before{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Titillium Web;
+}
+html{
+
+    scroll-behavior: smooth;
+}
+.clear{
+
+    clear: both;
+    display: block;
+    content: '';
+}
+
+    /* header area starts here  */
+
+     header{
+        position: relative;
+        min-height:600px;
+    } 
+    .row {
+         padding: 20px 0 10px 10%;
+    }
+    .row img {
+        padding:  10px;
+        height: 50px;
+        width: 90px;
+    }
+    .row ul li{
+
+        list-style: none;
+        padding: 10px;
+        text-align: center;
+    }
+    .row ul li a{
+        
+        text-decoration: none;
+        color: white;
+        font-size: 19px;
+        text-transform: uppercase;
+    }
+
+    .header-main{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+
+    }
+    .header-main h1{
+        color: white;
+        text-align: center;
+        line-height: 35px;
+        word-spacing: 0;
+        padding: 10px;
+        font-size: 1.5rem;
+
+    }
+    .header-button{
+       position: absolute;
+       top: 110%;
+       left: 50%;
+       transform: translate(-50%,-50%);
+       padding-top: 30px;
+    }
+
+    .header-button button{
+
+        width: 150px;
+        padding: 7px 10px;
+        border: none;
+        cursor: pointer;
+        background-color: #eb7d4b;
+        border-bottom: 3px solid #c86a40;
+        color: white;
+     }
+
+     /* <!-- ===== header section ends here =====  --> */
+     /* <!-- service section starts here  =========--> */
+
+     .service-title{
+
+        text-align: center;
+        padding: 100px 20px 40px 20px;
+     }
+     .service-title h2{
+         
+        padding: 10px;
+    }
+    .service-title p{
+         
+        padding: 10px;
+        width: 70%;
+        margin: 0 auto;
+    }
+     .grid-row p{
+        margin: 70px  0 20px 0;
+     }
+
+     .col{
+        width:100%;
+        padding:10px;
+        margin:10px auto;
+        text-align:center;
+     }
+
+     .col img{
+        height:90px;
+        width:70px;
+        padding: 10px;
+     }
+
+     .col h3{
+        padding: 10px;
+     }
+     .col p{
+
+        padding: 10px;
+        width: 95%;
+        margin: 0 auto;
+     }
+
+
+     /* service section ends here  */
+     /* ========= Team section starts here =========  */
+
+     .team-section{
+
+       margin-top: -10px;
+        text-align: center;
+        padding: 50px 10px;
+
+     }
+
+    .team-title{
+   
+        margin: 10px 0 20px 0 ;
+        padding: 5px;
+    }
+    .team-title h2{
+        text-align: center;
+        margin: 10px 0;
+        padding: 5px;
+    }
+    .team-title p{
+        text-align: center;
+        margin: 10px auto;
+        padding: 5px;
+        width: 70%;
+    }
+
+    .team-row{
+        
+        padding: 20px 5px;
+      
+    }
+    .team-member{
+
+        width: 100%;
+    }
+    .team-row img{
+        padding: 20px;
+        height: 150px;
+        max-width: 150px;
+        border-radius: 50%;
+    }
+    .team-member-text h4{
+        font-size: 20px;
+    }
+    .team-member-text p{
+        padding: 10px 10px;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .team-member-social{
+        padding: 10px 0 20px 0; 
+    }
+    .team-member-social i{
+        height: 25px;
+        width: 25px;
+        background-color: #f8f81f;
+        margin: 5px 2px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    .team-member-social i:hover{
+        background-color: #63633d;
+    }
+      /* ========= Team section ends here =========  */
+    /*  <<<<<<<<<<< Skills Section starts here >>>>>>>>>   */
+
+   .scrill-section{
+        padding: 70px 0;
+        color: black;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .scrill-section h2{
+        padding: 5px;
+        text-align: center;
+    }
+    .scrill-section p{
+        padding: 20px 40px;
+        text-align: center;
+        width: 70%;
+        margin: 0 auto;
+ }
+
+    /*  <<<<<<<<<<< Skills Section ends here >>>>>>>>>   */
+    /*<><>>>><>> protfolio section starts here  <><>>>>>< */
+        
+    .protfoio-section{
+        padding: 50px 0;
+        text-align: center;
+    }
+    .protfoio-section .protfoio-title{
+        padding: 50px 0;
+    }
+    .protfoio-section .protfolio-title h2{
+        padding: 5px;
+        text-align: center;
+    }
+    .protfoio-section .protfolio-title p{
+        padding: 5px 40px 30px 40px;
+        text-align: center;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .protfolio-button{
+        padding: 0 0 40px 0 ;
+    }
+    .protfolio-button button{
+        padding: 5px 10px ;
+        background-color: #ebc985;
+        border: none;
+        color: black;
+        border-radius: 3px;
+        width: 50px;
+        text-align: center;
+        margin: 0 5px;
+        cursor: pointer;
+    }
+    .protfolio-button button:hover{
+        background-color: #3df0eab8;
+        transition: .3s;
+    }
+    .protfolio-item-decs{
+        padding: 10px;
+        margin: 10px;
+    }
+    .protfolio-item-decs img{
+       
+        width: 100%;
+        padding: 10px 10px 0 10px;
+        margin: 5px auto;
+      
+        
+    }
+    .protfoio-section .mixitup-control-active{
+
+        background-color: #3df0eab8;
+    }
+
+    /*<><>>>><>> protfolio section Ends here  <><>>>>><>> */
+    /* <!-- >>> about section starts here <<<<  --> */
+
+        .about-section{
+            padding: 50px 0;
+            text-align: center;
+        }
+        .about-title{
+            padding: 50px 0;
+        }
+        .about-title h2{
+            padding: 5px;
+            text-align: center;
+        }
+        .about-title p{
+            padding: 5px 40px;
+            text-align: center;
+            width: 70%;
+            margin: 0 auto;
+        }
+        .about-decs{
+            padding: 5px;
+        }
+        .about-member-1{
+            display: flex;
+            text-align: left;
+            margin: 10px 0;
+        }
+        .about-member-1 img{
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            margin: 5px 10px 5px 5px;
+        }
+        .about-member-decs{
+            padding: 5px;
+        }
+        .about-member-decs p{
+            padding: 5px 0;
+        }
+
+
+    /* <!-- >>> about section Ends here <<<<  --> */
+    /* <!-- <<<<<<<<< footer section starts here  >>>>>> --> */
+
+        .footer-section{
+
+            padding: 50px 10px;
+            text-align: center;
+            color: white;
+        }
+        .footer-title h2{
+            padding: 10px;
+        }
+        .footer-title p{
+
+            padding: 10px;
+            width: 60%;
+            margin: 0 auto;
+        }
+
+        .input-area{
+            margin:50px auto;
+            width: 80%;
+        }
+        .input-area input,textarea{
+            display: block;
+            margin: 0 auto;
+            width: 90%;
+            margin-bottom: 10px;
+            padding: 8px;
+            background-color: rgb(39,58,123,0.9);
+            color: white;
+            border: none;
+            resize: none;
+            border-radius: 8px;
+  
+
+        }
+        .input-area textarea,input:focus{
+
+            
+            outline-color:none;
+             outline-style: none; 
+            outline-width: 0;
+      
+            
+
+        }
+
+        .input-area input::placeholder{
+            color: white;
+            padding-left: 20px;
+        }
+        .input-area textarea::placeholder{
+            color: white;
+            padding-left: 20px;
+        }
+        .input-area .btn{
+            width: 170px;
+            background-color: #30bae7;
+            border-bottom: 3px solid #299ec5;
+            cursor: pointer;
+        }
+
+        .footer-link{
+
+            text-align: center;
+             margin-top: -50px;
+             padding-bottom: 20px;
+             background-color: #344b8e;
+        }
+        .footer-ling {
+
+            text-align: center;
+            width: 90%;
+            margin: 0 auto;
+        }
+   
+        .footer-link ul li{
+           list-style: none;
+           padding: 10px 5px;
+        }
+        .footer-link ul li a{
+           text-decoration: none;
+           color: white;
+        }
+        .footer-link ul li a:hover{
+        
+            color: #30bae7;
+            transition: .3s;
+         }
+        .footer-ling-1{
+            display: inline-flex;
+           
+        }
+        .footer-ling-2{
+            display: inline-flex;
+          
+        }
+
+    /* <!-- <<<<<<<<< footer section Ends here  >>>>>> --> */
